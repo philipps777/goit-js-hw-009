@@ -1,7 +1,10 @@
 
 
 import Notiflix from 'notiflix';
+// Описан в документации
 import flatpickr from "flatpickr";
+// Дополнительный импорт стилей
+import "flatpickr/dist/flatpickr.min.css";
 
 const data = {
   days:document.querySelector("[data-days]"),
